@@ -1,0 +1,47 @@
+/*NAVBAR*/
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus-visible {
+    background-color: purple;
+    border-color: purple;
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: rgb(155, 9, 155);
+    border-color: rgb(155, 9, 155);
+}
+
+.nav-link {
+    color: purple;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: rgb(155, 9, 155);
+}
+
+.nav-pills .nav-link.active {
+    color: white;
+    background-color: purple;
+}
+
+.nav-pills .nav-link.active:hover,
+.nav-pills .nav-link.active:focus {
+    color: white;
+    background-color: purple;
+}
+
+.logosite {
+    margin-top: -178px;
+    margin-bottom: -312px;
+    margin-left: -112px;
+    height: 340px;
+    width: 314px;
+
+}

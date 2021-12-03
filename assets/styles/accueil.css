@@ -1,0 +1,149 @@
+/*FONTS*/
+@font-face {
+    font-family: "MADE TOMMY Regular_PERSONAL USE";
+    src: url("/assets/fonts/made_tommy/MADE TOMMY Regular_PERSONAL USE.otf") format("truetype"),
+    url("/assets/fonts/made_tommy/MADE TOMMY Regular_PERSONAL USE.otf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "Cocogoose Pro-trial";
+    src: url("/assets/fonts/cocogoose/Cocogoose Pro-trial.ttf") format("truetype"),
+    url("/assets/fonts/cocogoose/Cocogoose Pro-trial.ttf") format("truetype");
+}
+
+body {
+    font-family: "MADE TOMMY Regular_PERSONAL USE", serif;
+}
+
+
+h1  {
+    margin: 0;
+    font-family: "Cocogoose Pro-trial", serif;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: "Cocogoose Pro-trial", serif;
+}
+
+#activites {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.lorem {
+    display: flex;
+    align-items: right;
+}
+
+.album .promo {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 180px;
+    border: 1px solid rgb(155, 9, 155);
+    border-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.album .promo .title {
+    background-color: rgb(155, 9, 155);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.album .promo .expire {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.album .prix {
+    display: flex;
+    flex-direction: row;
+}
+
+.album .prix span {
+    color: black;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.album .prix > span {
+    padding: 0 2px;
+    
+}
+
+.album .prix > span:nth-child(1) {
+    align-self: flex-end;
+}
+
+.album .prix > span:nth-child(2) {
+    align-self: flex-end;
+    font-size: 35px;
+    line-height: 32px;
+}
+
+.album .prix > span:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.retro {
+    padding-bottom: 70px;
+}
+
+.hauteur {
+    height: 400px;
+}
+
+.line-title {
+    width: 100%;
+    height: 36px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 90px;
+    
+}
+
+.ligne {
+    color: purple;
+    
+}
+
+.col-photos {
+    max-height: 400px;
+    overflow-y: hidden;
+}
+
+.col-photos > img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.infos {
+    padding-bottom: 20px;
+}
+
+
+.schema {
+    width: 100%;
+    height: 100%;
+}
+
+.lineheight {
+    line-height: 35px;
+}
+
+.retrogaming {
+    margin-top: -40px;
+}

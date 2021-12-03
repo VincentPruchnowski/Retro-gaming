@@ -1,0 +1,116 @@
+
+/*FONTS*/
+@font-face {
+    font-family: "MADE TOMMY Regular_PERSONAL USE";
+    src: url("/assets/fonts/made_tommy/MADE TOMMY Regular_PERSONAL USE.otf") format("truetype"),
+    url("/assets/fonts/made_tommy/MADE TOMMY Regular_PERSONAL USE.otf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "Cocogoose Pro-trial";
+    src: url("/assets/fonts/cocogoose/Cocogoose Pro-trial.ttf") format("truetype"),
+    url("/assets/fonts/cocogoose/Cocogoose Pro-trial.ttf") format("truetype");
+}
+
+
+h1 {
+    font-family: "Cocogoose Pro-trial", serif;
+}
+
+
+body {
+    font-family: "MADE TOMMY Regular_PERSONAL USE", serif;
+    text-align: center
+}
+
+.filtre {
+    display: inline-block;
+    color: black;
+    text-shadow: 0.1em 0.1em #F5C5C5;
+}
+
+
+input, textarea, select, option {
+    background-color: #ffdafc;
+}
+
+input, textarea, select {
+    padding:3px;
+    border:1px solid #F5C5C5;
+    border-radius:5px;
+    width:200px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 85px;
+    box-shadow: 0 0px 30px rgba(0,0,0,0.2);
+    color: black;
+}
+
+.thead-dark {
+    background-color: #ffdafc
+}
+
+.monlien {
+    color: dimgray;
+}
+
+.taille {
+    width: 100%;
+    height: 170px;
+}
+
+.stylisation {
+    border-radius: 100%;
+}
+
+h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.butt01 {
+    border-radius: 30px;
+    padding:3px;
+    border:1px solid #F5C5C5;
+
+    width:200px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+    background-color: #F5C5C5;
+    transition: all 0.3s;
+}
+
+.butt02 {
+    border-radius: 30px;
+    padding:3px;
+    border:1px solid #F5C5C5;
+
+    width:200px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+    background-color: #F5C5C5;
+    transition: all 0.3s;
+}
+
+.twobutt {
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.input[type=submit]:hover, input[type=reset]:hover {
+    background-color:ivory;
+}
+
+.input[type=submit]:active, input[type=reset]:active {
+    background-color:ivory;
+    box-shadow:1px 1px 1px #D83F3D inset;
+}
+
+.banniere {
+    width: 100%;
+    height: 220px;
+}
